@@ -1,0 +1,12 @@
+.navbar{
+    background-color: rgb(219, 127, 16)!important;
+    .nav-link{
+        &.active{
+            color: white;
+            text-shadow: 1px 1px 1px black;
+        }
+    }
+    .white{
+        color: white;
+    }
+}

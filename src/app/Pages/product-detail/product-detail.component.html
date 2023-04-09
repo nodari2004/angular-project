@@ -1,0 +1,14 @@
+<div class="container">
+    <h1 class="text-center">პროდუქტის დეტალები ID: {{id}}</h1>
+</div>
+
+<div class="card col-md-5 mx-auto">
+    <img src="{{product.images[0]}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{product.title}}</h5>
+      <p class="card-text">{{product.description}}</p>
+      <p class="card-text"> ფასი:{{product.price}}</p>
+      <a href="#" class="btn btn-primary">ID:{{product.id}}</a>
+      <a href="#" class="btn btn-success d-block mt-3" [routerLink]="[product.id]">see detailed</a>
+    </div>
+</div>
